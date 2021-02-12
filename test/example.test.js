@@ -1,6 +1,6 @@
 // IMPORT MODULES under test here:
 // import { example } from '../example.js';
-import { add, subtract , divide, multiply } from '../utilities.js';
+import { add, subtract, divide, multiply } from '../utilities.js';
 const test = QUnit.test;
 
 test('time to test a function', (expect) => {
