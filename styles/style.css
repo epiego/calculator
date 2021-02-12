@@ -1,5 +1,14 @@
+
 * {
     box-sizing: border-box;
+ }
+ body, html {
+    font-family: 'Gill Sans';
+    font-size: 30px;
+    background-color: rgb(74, 74, 172);
+    margin: 8%;
+    box-shadow: rgb(5, 6, 10);
+    -moz-box-align: inherit;
  }
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
@@ -8,35 +17,28 @@ body {
     --color3: hsla(200, 61%, 56%, 1);
     --color4: hsla(187, 41%, 94%, 1);
     --color5: hsla(170, 28%, 95%, 1); */
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, sans-serif;
-
 }
-body, html {
-    font-size: 50px;
-    background-color: rgb(74, 74, 172);
-    width: 100%;
-    border-radius: 5%;
-    height: 20;
-    margin: 10%;
-}
+
 main {
-    border-spacing: blue
+
 }
-h1 {
-    text-size-adjust: 10px;
+
+p {
+
+}
+h1{
+
 }
 .addition{
-    font-size-adjust: 50%;
 }
-.subtraction {
-    font-size: 20px;
+
+.subtraction{
+
 }
+
 .multiplication{
-    font-size: 20px;
 }
+
 .division{
-    font-size: 20px;
 }
-
-
+ }
