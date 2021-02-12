@@ -15,7 +15,7 @@ function initOperator(firstInputId, secondInputId, buttonId, resultsId, calculat
 
     addButton.addEventListener('click', () => {
         console.log(firstNum.textContent = firstNum.value,
-            secondNum.textContent= secondNum.value);
+            secondNum.textContent = secondNum.value);
         const answer = calculation(Number(firstNum.value), Number(secondNum.value)); 
         sumNum.textContent = answer;
     }); 
